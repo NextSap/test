@@ -4,11 +4,11 @@ import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;
 import jakarta.ws.rs.Produces;
 
-@Path("/hello-world")
+@Path("/new-resource")
 public class NewResource {
     @GET
     @Produces("text/plain")
     public String hello() {
-        return "Hello, World!";
+        return "New, resource!";
     }
 }
